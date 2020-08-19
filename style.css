@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Libre Caslon Display, sans-serif;
+    min-height: 100vh;
+    background-color: lightgrey;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 16px;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+
+
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container{
+    margin: 10px 30%;
+}
+
+.image-container img {
+
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* Media Query for large mobilephones */
+
+@media screen and (max-width: 600px) {
+
+    h1{
+        font-size: 20px;
+    }
+
+    .image-container {
+        margin: 10px;
+    }
+}
